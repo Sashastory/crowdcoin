@@ -32,6 +32,7 @@ describe('Campaings', () => {
     it('deploys a factory and a campaign', () => {
         assert.ok(factory.options.address);
         assert.ok(campaign.options.address);
+        console.log(campaign);
     });
 
     it('marks caller a campaign manager', async () => {
